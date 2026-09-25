@@ -1,0 +1,647 @@
+{
+  "sections": [
+    {
+      "title": "Comment utiliser ce guide",
+      "items": [
+        {
+          "type": "p",
+          "text": "Ce guide est votre support personnel pour la séance 01 du Module 01. Il sert à comprendre les notions de base et à réaliser vos premiers livrables."
+        },
+        {
+          "type": "note",
+          "text": "Idée centrale\nLe Challenge 100 jours n'est pas une formation passive. C'est un atelier de production numérique organisé. Vous avancez en produisant des traces claires, classées et améliorables."
+        },
+        {
+          "type": "h3",
+          "text": "Ce que vous devez faire avec ce guide"
+        },
+        {
+          "type": "li",
+          "text": "Lire les définitions essentielles."
+        },
+        {
+          "type": "li",
+          "text": "Comprendre la différence entre dossier, fichier, livrable, trace et preuve."
+        },
+        {
+          "type": "li",
+          "text": "Préparer votre dossier de travail dans VS Code."
+        },
+        {
+          "type": "li",
+          "text": "Rédiger votre première fiche de départ candidat."
+        },
+        {
+          "type": "li",
+          "text": "Répondre aux questions de réflexion."
+        },
+        {
+          "type": "li",
+          "text": "Conserver vos fichiers dans votre portfolio de preuves."
+        }
+      ]
+    },
+    {
+      "title": "Objectifs de la séance",
+      "items": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Objectif",
+              "Ce que cela veut dire pour vous"
+            ],
+            [
+              "Comprendre le Challenge",
+              "Vous savez pourquoi ce programme dure 100 jours et pourquoi il demande une production régulière."
+            ],
+            [
+              "Découvrir VS Code",
+              "Vous voyez VS Code comme un bureau numérique, pas comme un obstacle technique."
+            ],
+            [
+              "Produire une première trace",
+              "Vous créez un fichier simple qui marque votre point de départ."
+            ],
+            [
+              "Clarifier votre intention",
+              "Vous dites ce que vous voulez apprendre à produire avec l'IA."
+            ],
+            [
+              "Entrer dans la méthode LN-IA",
+              "Vous comprenez le cycle : intention, prompt, production, contrôle, correction, classement, preuve."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Les concepts clés à comprendre",
+      "items": [
+        {
+          "type": "note",
+          "text": "Consigne\nNe cherchez pas une définition compliquée. Cherchez une définition utile pour agir."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Concept",
+              "Définition simple",
+              "Exemple concret"
+            ],
+            [
+              "Atelier",
+              "Espace organisé pour produire, corriger et conserver.",
+              "Un dossier VS Code avec vos fichiers de travail."
+            ],
+            [
+              "Dossier",
+              "Contenant principal de votre projet.",
+              "challenge-100j-mon-dossier/"
+            ],
+            [
+              "Fichier",
+              "Objet écrit ou produit dans un dossier.",
+              "fiche-depart-candidat.md"
+            ],
+            [
+              "Trace",
+              "Premier signe concret de votre travail.",
+              "Un brouillon sauvegardé."
+            ],
+            [
+              "Livrable",
+              "Production utile et présentable.",
+              "Une fiche relue et structurée."
+            ],
+            [
+              "Preuve",
+              "Livrable classé qui montre votre progression.",
+              "Votre fiche de départ dans le portfolio."
+            ],
+            [
+              "Portfolio",
+              "Dossier de preuves de votre progression.",
+              "Un espace avec vos documents, prompts, visuels et pages."
+            ],
+            [
+              "Prompt",
+              "Instruction donnée à l'IA pour produire une réponse utile.",
+              "Aide-moi à clarifier mon objectif en 10 lignes."
+            ],
+            [
+              "Contrôle humain",
+              "Vérification par vous avant validation.",
+              "Relire, corriger, décider si la réponse est juste."
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "À retenir"
+        },
+        {
+          "type": "note",
+          "text": "Formule de séance\nL'IA propose. L'humain contrôle. L'atelier organise. Le livrable prouve."
+        },
+        {
+          "type": "h3",
+          "text": "Exercice rapide 1 - Distinguer les mots"
+        },
+        {
+          "type": "p",
+          "text": "Classez les éléments suivants dans la bonne colonne : dossier, fichier, trace, livrable, preuve."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Élément",
+              "Votre réponse"
+            ],
+            [
+              "challenge-100j-mon-dossier/",
+              ""
+            ],
+            [
+              "fiche-depart-candidat.md",
+              ""
+            ],
+            [
+              "un brouillon non relu",
+              ""
+            ],
+            [
+              "un document relu et classé",
+              ""
+            ],
+            [
+              "un fichier conservé dans le portfolio",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Méthode LAB-Numérique-IA",
+      "items": [
+        {
+          "type": "p",
+          "text": "LAB-Numérique-IA donne une façon de travailler. Le but n'est pas d'utiliser l'IA au hasard. Le but est de transformer une intention en production contrôlée."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Pilier",
+              "Question",
+              "Réponse pratique"
+            ],
+            [
+              "Vision",
+              "Pourquoi je fais ce travail ?",
+              "Pour construire mon autonomie numérique."
+            ],
+            [
+              "Méthode",
+              "Comment j'avance ?",
+              "Par petits cycles de production."
+            ],
+            [
+              "Impact",
+              "Qu'est-ce qui change ?",
+              "Je deviens capable de produire, expliquer et améliorer."
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Le cycle de production LN-IA"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Étape",
+              "Question à se poser",
+              "Action attendue"
+            ],
+            [
+              "1. Intention",
+              "Qu'est-ce que je veux produire ?",
+              "Écrire l'objectif en une phrase."
+            ],
+            [
+              "2. Prompt",
+              "Que dois-je demander à l'IA ?",
+              "Formuler une instruction claire."
+            ],
+            [
+              "3. Production",
+              "Qu'est-ce que l'IA propose ?",
+              "Lire la réponse sans la copier aveuglément."
+            ],
+            [
+              "4. Contrôle",
+              "Est-ce exact, utile, adapté ?",
+              "Vérifier avec votre contexte."
+            ],
+            [
+              "5. Correction",
+              "Que faut-il améliorer ?",
+              "Corriger le fond, le style et la structure."
+            ],
+            [
+              "6. Classement",
+              "Où dois-je le ranger ?",
+              "Placer le fichier dans le bon dossier."
+            ],
+            [
+              "7. Preuve",
+              "Est-ce une progression visible ?",
+              "Conserver une version propre."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Question de pilotage\nAvant chaque production, demandez-vous : quel livrable dois-je obtenir et comment vais-je vérifier sa qualité ?"
+        }
+      ]
+    },
+    {
+      "title": "Atelier numérique VS Code",
+      "items": [
+        {
+          "type": "p",
+          "text": "Dans ce Challenge, VS Code est présenté comme un bureau numérique organisé. Vous n'avez pas besoin de devenir développeur dès le début. Vous devez d'abord apprendre à ouvrir un dossier, créer un fichier, écrire, enregistrer et classer."
+        },
+        {
+          "type": "h3",
+          "text": "Structure minimale de votre dossier"
+        },
+        {
+          "type": "code",
+          "text": "challenge-100j-mon-dossier/\n  01-depart/\n    fiche-depart-candidat.md\n    objectif-personnel-challenge.md\n  02-prompts/\n    premiers-prompts.md\n  03-livrables/\n    liste-premiers-livrables.md\n  04-portfolio-preuves/\n    preuves-semaine-01.md"
+        },
+        {
+          "type": "h3",
+          "text": "Les gestes simples à maîtriser"
+        },
+        {
+          "type": "li",
+          "text": "Ouvrir VS Code."
+        },
+        {
+          "type": "li",
+          "text": "Ouvrir un dossier de travail."
+        },
+        {
+          "type": "li",
+          "text": "Repérer l'arborescence à gauche."
+        },
+        {
+          "type": "li",
+          "text": "Créer un fichier Markdown avec l'extension .md."
+        },
+        {
+          "type": "li",
+          "text": "Écrire quelques lignes."
+        },
+        {
+          "type": "li",
+          "text": "Enregistrer le fichier."
+        },
+        {
+          "type": "li",
+          "text": "Donner un nom clair au fichier."
+        },
+        {
+          "type": "li",
+          "text": "Retrouver le fichier dans le dossier."
+        },
+        {
+          "type": "note",
+          "text": "Posture\nComprendre juste assez pour produire une première trace. Le reste viendra par la pratique."
+        }
+      ]
+    },
+    {
+      "title": "Exercices guidés",
+      "items": [
+        {
+          "type": "note",
+          "text": "Exercice 1 - Écrire votre intention de départ\nObjectif : Clarifier pourquoi vous rejoignez le Challenge.\nÉtapes :\n- Écrivez 3 phrases simples.\n- Indiquez votre activité actuelle.\n- Indiquez ce que vous voulez apprendre à produire.\nLivrable attendu : Un paragraphe court de 5 à 7 lignes."
+        },
+        {
+          "type": "note",
+          "text": "Exercice 2 - Créer votre dossier de travail\nObjectif : Préparer un espace propre pour vos fichiers.\nÉtapes :\n- Créez un dossier principal : challenge-100j-mon-dossier.\n- Créez le sous-dossier 01-depart.\n- Ouvrez le dossier principal dans VS Code.\nLivrable attendu : Un dossier visible dans VS Code avec une arborescence simple."
+        },
+        {
+          "type": "note",
+          "text": "Exercice 3 - Créer le fichier fiche-depart-candidat.md\nObjectif : Produire votre première trace officielle.\nÉtapes :\n- Dans le dossier 01-depart, créez le fichier fiche-depart-candidat.md.\n- Copiez le modèle fourni en annexe.\n- Complétez les champs avec vos informations.\n- Relisez et corrigez.\nLivrable attendu : Le fichier fiche-depart-candidat.md complété."
+        },
+        {
+          "type": "note",
+          "text": "Exercice 4 - Transformer la trace en preuve\nObjectif : Comprendre le passage entre brouillon et preuve.\nÉtapes :\n- Relisez votre fiche.\n- Vérifiez si elle est claire pour une autre personne.\n- Ajoutez une date.\n- Rangez-la dans le dossier 04-portfolio-preuves si elle est prête.\nLivrable attendu : Une fiche propre, datée et conservée comme preuve de départ."
+        },
+        {
+          "type": "h3",
+          "text": "Exercice 5 - Premier prompt utile"
+        },
+        {
+          "type": "p",
+          "text": "Copiez ce prompt dans ChatGPT ou dans votre outil IA. Adaptez les crochets avec vos informations."
+        },
+        {
+          "type": "copy",
+          "text": "Je participe au Challenge 100 jours - Atelier LN-IA.\nAide-moi à clarifier mon objectif personnel en 10 lignes maximum.\nMon activité actuelle : [à compléter].\nCe que je veux produire avec l'IA : [à compléter].\nMa difficulté principale : [à compléter].\nJe veux une réponse simple, concrète et utilisable dans mon fichier objectif-personnel-challenge.md.",
+          "label": "Prompt à copier"
+        }
+      ]
+    },
+    {
+      "title": "Questions de réflexion",
+      "items": [
+        {
+          "type": "p",
+          "text": "Question 1. Pourquoi est-ce que je veux apprendre à produire avec l'IA ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "Question 2. Quel problème concret je veux résoudre dans mon activité ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "Question 3. Quel livrable serait utile pour moi dans les 7 prochains jours ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "Question 4. Qu'est-ce qui me bloque aujourd'hui : technique, méthode, temps, confiance, organisation ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "Question 5. Comment vais-je savoir que j'ai progressé ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "Question 6. Quelle preuve simple puis-je produire dès cette semaine ?"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        },
+        {
+          "type": "p",
+          "text": "................................................................................................................"
+        }
+      ]
+    },
+    {
+      "title": "Travail après séance",
+      "items": [
+        {
+          "type": "note",
+          "text": "Objectif après séance\nAvant la séance suivante, votre mission est de sortir du simple suivi. Vous devez avoir au moins une trace propre et une intention claire."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Fichier",
+              "Action à faire",
+              "Statut"
+            ],
+            [
+              "fiche-identification-engagement-candidat.docx",
+              "Compléter ou vérifier les informations.",
+              "A faire"
+            ],
+            [
+              "fiche-depart-candidat.md",
+              "Créer, compléter, relire et classer.",
+              "A faire"
+            ],
+            [
+              "objectif-personnel-challenge.md",
+              "Rédiger l'objectif personnel en 10 lignes maximum.",
+              "A faire"
+            ],
+            [
+              "liste-premiers-livrables.md",
+              "Lister trois livrables que vous voulez produire.",
+              "A faire"
+            ],
+            [
+              "preuves-semaine-01.md",
+              "Noter ce que vous avez déjà produit.",
+              "Optionnel"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Checklist avant la séance 02"
+        },
+        {
+          "type": "li",
+          "text": "J'ai ouvert VS Code au moins une fois."
+        },
+        {
+          "type": "li",
+          "text": "J'ai créé ou préparé mon dossier de travail."
+        },
+        {
+          "type": "li",
+          "text": "J'ai créé le fichier fiche-depart-candidat.md."
+        },
+        {
+          "type": "li",
+          "text": "J'ai rédigé mon intention personnelle."
+        },
+        {
+          "type": "li",
+          "text": "J'ai identifié trois livrables souhaités."
+        },
+        {
+          "type": "li",
+          "text": "Je sais où ranger mes preuves."
+        }
+      ]
+    },
+    {
+      "title": "Auto-évaluation candidat",
+      "items": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Compétence",
+              "Oui",
+              "Partiellement",
+              "Non",
+              "Commentaire"
+            ],
+            [
+              "Je comprends la logique du Challenge 100 jours.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Je sais expliquer le rôle de VS Code dans l'atelier.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Je distingue dossier, fichier, trace, livrable et preuve.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Je comprends le cycle LN-IA.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "J'ai créé mon premier fichier .md.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Je sais formuler une intention personnelle.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Je comprends que l'IA doit être contrôlée par l'humain.",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Règle de progression\nCe n'est pas grave si tout n'est pas maîtrisé dès la première séance. Ce qui compte, c'est de produire, relire, corriger et classer."
+        }
+      ]
+    },
+    {
+      "title": "Annexes à copier dans VS Code",
+      "items": [
+        {
+          "type": "h3",
+          "text": "Annexe A - Modèle fiche-depart-candidat.md"
+        },
+        {
+          "type": "copy",
+          "text": "# Fiche de départ candidat\n\nDate : 25 septembre 2026\n\nNom :\nPrénom :\nEmail-ID :\nActivité actuelle :\n\n## Pourquoi je rejoins le Challenge\n\n[Écrire 3 à 5 lignes.]\n\n## Objectif pendant les 100 jours\n\n[Écrire un objectif simple et concret.]\n\n## Premier livrable souhaité\n\n[Indiquer un document, une affiche, une page, un prompt, un workflow ou un guide.]\n\n## Difficulté principale à dépasser\n\n[Indiquer ce qui bloque aujourd'hui.]\n\n## Preuve attendue\n\n[Indiquer comment vous allez montrer votre progression.]\n",
+          "label": "Modèle à copier"
+        },
+        {
+          "type": "h3",
+          "text": "Annexe B - Modèle objectif-personnel-challenge.md"
+        },
+        {
+          "type": "copy",
+          "text": "# Objectif personnel Challenge 100 jours\n\nJe participe au Challenge 100 jours pour apprendre à produire avec l'IA de façon organisée.\n\nMon objectif principal est de :\n\n[compléter]\n\nÀ la fin du Challenge, je veux être capable de produire :\n\n1. [livrable 1]\n2. [livrable 2]\n3. [livrable 3]\n\nMa priorité pour la semaine 01 est :\n\n[compléter]\n",
+          "label": "Modèle à copier"
+        },
+        {
+          "type": "h3",
+          "text": "Annexe C - Modèle liste-premiers-livrables.md"
+        },
+        {
+          "type": "copy",
+          "text": "# Liste de mes premiers livrables\n\n## Livrable 1\nNom :\nUtilité :\nDate cible :\n\n## Livrable 2\nNom :\nUtilité :\nDate cible :\n\n## Livrable 3\nNom :\nUtilité :\nDate cible :\n",
+          "label": "Modèle à copier"
+        },
+        {
+          "type": "h3",
+          "text": "Annexe D - Prompt de clarification candidat"
+        },
+        {
+          "type": "copy",
+          "text": "Tu es mon assistant pédagogique pour le Challenge 100 jours - Atelier LN-IA.\nAide-moi à transformer mon idée vague en objectif clair.\nPose-moi 5 questions simples.\nPuis propose une version courte de mon objectif personnel en 10 lignes maximum.\nGarde un style simple, direct et concret.",
+          "label": "Prompt à copier"
+        }
+      ]
+    },
+    {
+      "title": "Clôture",
+      "items": [
+        {
+          "type": "note",
+          "text": "Phrase finale\nLe Challenge n'est pas un simple cours. C'est un atelier organisé pour apprendre à produire. VS Code donne la base technique. LAB-Numérique-IA donne la méthode. Les livrables donnent les preuves."
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    "Je participe au Challenge 100 jours - Atelier LN-IA.\nAide-moi à clarifier mon objectif personnel en 10 lignes maximum.\nMon activité actuelle : [à compléter].\nCe que je veux produire avec l'IA : [à compléter].\nMa difficulté principale : [à compléter].\nJe veux une réponse simple, concrète et utilisable dans mon fichier objectif-personnel-challenge.md.",
+    "Tu es mon assistant pédagogique pour le Challenge 100 jours - Atelier LN-IA.\nAide-moi à transformer mon idée vague en objectif clair.\nPose-moi 5 questions simples.\nPuis propose une version courte de mon objectif personnel en 10 lignes maximum.\nGarde un style simple, direct et concret.",
+    "Tu es mon assistant de cadrage pour le Challenge 100 JOURS — Relance 25 SEPTEMBRE 2026 — Formation IA pratique.\n\nÀ partir des informations suivantes, aide-moi à clarifier mon intention en 10 lignes maximum.\n\nMon activité actuelle :\n\nMon objectif pendant les 100 jours :\n\nCe que je veux produire avec l'IA :\n\nMa difficulté principale :\n\nLe livrable qui serait une preuve utile :\n\nRéponds avec :\n1. une intention claire ;\n2. un objectif reformulé ;\n3. trois livrables possibles ;\n4. une première action simple à faire dans VS Code.",
+    "Tu es un assistant pédagogique LAB-Numérique-IA.\n\nTransforme cette idée vague en objectif clair, réaliste et mesurable pour le Challenge 100 jours.\n\nIdée vague :\n\nContexte du candidat :\n\nContraintes :\n\nFormat attendu :\n- objectif principal ;\n- trois livrables ;\n- première action ;\n- preuve à conserver dans le portfolio.\n\nTon : clair, simple, encourageant, professionnel.",
+    "Tu es un assistant d'organisation numérique.\n\nJe veux créer un dossier de travail pour le Challenge 100 jours.\n\nAide-moi à rédiger un fichier README.md simple pour expliquer :\n- le rôle de mon dossier ;\n- mes objectifs ;\n- les sous-dossiers ;\n- les livrables attendus ;\n- la règle : le livrable prouve.\n\nLe README doit être clair pour un débutant."
+  ],
+  "models": [
+    "# Fiche de départ candidat\n\nDate : 25 septembre 2026\n\nNom :\nPrénom :\nEmail-ID :\nActivité actuelle :\n\n## Pourquoi je rejoins le Challenge\n\n[Écrire 3 à 5 lignes.]\n\n## Objectif pendant les 100 jours\n\n[Écrire un objectif simple et concret.]\n\n## Premier livrable souhaité\n\n[Indiquer un document, une affiche, une page, un prompt, un workflow ou un guide.]\n\n## Difficulté principale à dépasser\n\n[Indiquer ce qui bloque aujourd'hui.]\n\n## Preuve attendue\n\n[Indiquer comment vous allez montrer votre progression.]\n",
+    "# Objectif personnel Challenge 100 jours\n\nJe participe au Challenge 100 jours pour apprendre à produire avec l'IA de façon organisée.\n\nMon objectif principal est de :\n\n[compléter]\n\nÀ la fin du Challenge, je veux être capable de produire :\n\n1. [livrable 1]\n2. [livrable 2]\n3. [livrable 3]\n\nMa priorité pour la semaine 01 est :\n\n[compléter]\n",
+    "# Liste de mes premiers livrables\n\n## Livrable 1\nNom :\nUtilité :\nDate cible :\n\n## Livrable 2\nNom :\nUtilité :\nDate cible :\n\n## Livrable 3\nNom :\nUtilité :\nDate cible :\n"
+  ]
+}
