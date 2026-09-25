@@ -45,9 +45,17 @@ La présentation comporte 12 écrans. Les autres modes donnent accès à la leç
 
 Les réponses ne sont ni envoyées au formateur ni synchronisées. Elles sont conservées localement dans le navigateur et peuvent disparaître si ses données sont effacées. Utiliser **Exporter mon travail .md** pour conserver une copie. Ne pas publier les fichiers personnels des candidats dans le dépôt public.
 
-## Publier ensuite sur GitHub Pages
+## Publication sur GitHub Pages
 
-La publication n'a pas encore été effectuée. Le workflow est prêt.
+La publication publique a été effectuée le 25 septembre 2026 avec GitHub Actions.
+
+- [Ouvrir le site](https://elhisse-clprepas.github.io/atelier-seance-01_25_SEPTEMBRE_2026/).
+- [Ouvrir directement la présentation](https://elhisse-clprepas.github.io/atelier-seance-01_25_SEPTEMBRE_2026/#slides/0).
+- [Dépôt GitHub](https://github.com/elhisse-CLPrepas/atelier-seance-01_25_SEPTEMBRE_2026).
+
+Le remote `origin` est configuré et `main` suit `origin/main`. Après un nouveau commit, `git push` déclenche la reconstruction et la publication. Le site et les sources du dépôt sont publics ; aucun mot de passe ni contrôle d'accès par e-mail n'est activé.
+
+Les étapes suivantes servent de référence pour publier une copie dans un autre dépôt.
 
 1. Créer un dépôt GitHub, par exemple `seance-01-challenge-100-jours`. Un dépôt public convient au partage de cette leçon.
 2. Dans VS Code, ouvrir la racine `seance-01-ln-ia` : elle contient `package.json` et `.github`.
@@ -117,7 +125,7 @@ Projet préparé le 25 septembre 2026. Vite 8.3.1. Dépendances verrouillées da
 
 Construction Vite réussie. Vérifications dans Chromium : les 12 entrées de leçon, les 12 écrans de présentation, les flèches au clavier, la copie dans le presse-papiers, le téléchargement d'un prompt, l'export du bilan, la persistance des réponses, l'exercice de classement, l'ouverture des affiches, le menu mobile et le chargement sous un sous-dossier. Aucun échec HTTP ni erreur JavaScript dans ces parcours. Affichage contrôlé sur ordinateur 1440 px, projection 1366 px et mobile 390 px.
 
-La publication réelle GitHub Pages et le partage réel dans Zoom restent à effectuer sur vos comptes.
+La publication GitHub Pages a été vérifiée : workflow réussi et réponses HTTP 200 sur l'accueil, le JavaScript, les styles et les six images. Le partage réel dans Zoom reste à effectuer sur votre compte.
 
 ## Documents complémentaires
 
